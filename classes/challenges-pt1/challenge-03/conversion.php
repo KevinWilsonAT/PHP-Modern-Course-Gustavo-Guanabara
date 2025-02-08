@@ -10,7 +10,6 @@
     <main>
         <h1>Finance Conversion v1</h1>
             <?php
-
                 //usd value (copied)
                 $usd_value = 5.82;
 

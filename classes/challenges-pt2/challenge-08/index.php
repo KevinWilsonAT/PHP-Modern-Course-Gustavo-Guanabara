@@ -28,7 +28,6 @@
             echo "<p>Number: $num</p>";
             echo "<ul><li>Square root: " . number_format($sqroot, 3, ",", ".") . "</li>";
             echo "<li>Square root: " . number_format($sqroot, 3, ",", ".") . "</li></ul>";
-
         ?>
 
     </section>

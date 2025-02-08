@@ -10,7 +10,6 @@
     <main>
         <h1>Finance Conversion v2</h1>
             <?php
-
                 $start = date("m-d-Y", strtotime("-7 days"));
                 $end = date("m-d-Y");
                 $url = 'https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial=\''. $start .'\'&@dataFinalCotacao=\''. $end .'\'&$top=100&$format=json&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao';

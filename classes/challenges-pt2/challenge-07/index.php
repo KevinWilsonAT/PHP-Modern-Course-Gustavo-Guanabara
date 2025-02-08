@@ -15,8 +15,8 @@
         <h1>Inform your income</h1>
         <form action="<?=$_SERVER['PHP_SELF']; ?>" method="get">
             <label for="inc">Income (R$)</label>
-            <input type="number" name="inc" id="inc" value="<?=$income; ?>" step="0.01">
-            <p>Consider the minimum R$ <strong><?=number_format($min, 2, ",", "."); ?></strong> </p>
+            <input type="number" name="inc" id="inc" value="<?= $income; ?>" step="0.01">
+            <p>Consider the minimum R$ <strong><?= number_format($min, 2, ",", "."); ?></strong> </p>
             <input type="submit" value="Calculate">
         </form>
     </main>

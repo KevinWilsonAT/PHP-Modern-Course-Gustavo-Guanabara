@@ -38,12 +38,12 @@
 
         <table class="divisao">
             <tr>
-                <td><?=$dividend; ?></td>
-                <td><?=$divisor; ?></td>
+                <td><?= $dividend; ?></td>
+                <td><?= $divisor; ?></td>
             </tr>
             <tr>
-                <td><?=$rest; ?></td>
-                <td><?=$quocient; ?></td>
+                <td><?= $rest; ?></td>
+                <td><?= $quocient; ?></td>
             </tr>
         </table>
     </section>

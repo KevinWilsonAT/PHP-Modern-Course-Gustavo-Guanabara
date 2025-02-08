@@ -9,9 +9,7 @@
 <body>
     <main>
         <h1>Random Number</h1>
-
         <?php
-
             $min = 0;
             $max = 100;
             $num = mt_rand($min, $max);
